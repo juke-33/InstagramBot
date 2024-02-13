@@ -26,11 +26,11 @@ comments.py
 4. Πήγαινε στο φάκελο που δημιουργήθηκε στο Βήμα 1
 5. Πάτησε δεξί κλικ στο περιθώριο του αρχείου και άνοιξέ στο Τερματικό (cmd)
 6. Άν έχει ανοίξει το Τερματικό, γράψε τις εντολές στο Βήμα 7
-7.  pip install -r requirements.txt
+7.      pip install -r requirements.txt
 
-    pip install --upgrade -r requirements.txt
+        pip install --upgrade -r requirements.txt
 
-    python3 comments.py ή python3 accounts.py
+        python3 comments.py ή python3 accounts.py
 9. Κράτησε το Τερματικό ανοιχτό όσο εκτελείται το πρόγραμμα
 10. Τερμάτισε την διαδικασία με Ctrl + C, στο Τερματικό
 
