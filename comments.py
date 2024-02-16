@@ -124,7 +124,7 @@ if __name__ == "__main__":
                 number_of_tags += 1
 
                 # set a random waiting time to not get blocked
-                seconds_to_wait = random.randint(1,10)
+                seconds_to_wait = random.randint(1,15)
                 print("\nTagged: {}".format(comment))
                 print("Total tags made: {}/120".format(number_of_tags))
                 time.sleep(seconds_to_wait)
