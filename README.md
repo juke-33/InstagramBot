@@ -1,37 +1,37 @@
 # Instagram Bot (v1.0)
 
 
-- ΛΕΙΤΟΥΡΓΙΑ
+- HOW CODES WORK
 
 accounts.py
 
-1. Δημιουργεί αυτόματα λογαριασμό στο Instagram με συγκεκριμένα στοιχεία που δίνεις
-2. Το Instagram έχει όριο λογαριασμών σε μια μέρα τους 2-3 αρα μπορεί να έχεις θέμα στην δημιουργία
+1. Create account automatically with the given information
+2. Instagram has daily limit to 2-3 accounts creation so you may experience problems
 
 
 comments.py
 
-1. Συνδέεται στο λογαριασμό σου και σχολιάζει στον διαγωνισμό που έχεις δώσει
-2. Τα σχόλια γίνονται σε random χρόνο για να μην φας ban
-3. Καλό είναι να βαλεις αρκετά ονόματα να διαλέγει για tag
+1. Connects in your account and comments on the given giveaway
+2. The comments are done in a random time to avoid ban
+3. You better add more names to tag on the comments
 
-- ΒΗΜΑΤΑ
+- STEPS
 
-1. Κάνε εξαγωγή όλων των αρχείων στο .zip, σε ένα νέο απλό φάκελο
-2. Συμπλήρωσε τα στοιχεία στο InfoTag.ini ή στο InfoAccount.ini
-3. Κατέβασε το Chrome και την Python (https://phoenixnap.com/kb/how-to-install-python-3-windows)
-4. Πήγαινε στο φάκελο που δημιουργήθηκε στο Βήμα 1
-5. Πάτησε δεξί κλικ στο περιθώριο του αρχείου και άνοιξέ στο Τερματικό (cmd)
-6. Άν έχει ανοίξει το Τερματικό, γράψε τις εντολές στο Βήμα 7
+1. Remove all the files from the .zip file into a new file
+2. Complete the information needed in the InfoTag.ini or the InfoAccount.ini files
+3. Download Chrome or Python(https://phoenixnap.com/kb/how-to-install-python-3-windows)
+4. Go to the file created in Step 1
+5. Open the terminal(cmd) using right click on the file
+6. If everything was completed, go to step7
 7.      pip install -r requirements.txt
         pip install --upgrade -r requirements.txt
-        python3 comments.py ή python3 accounts.py
-9. Κράτησε το Τερματικό ανοιχτό όσο εκτελείται το πρόγραμμα
-10. Τερμάτισε την διαδικασία με Ctrl + C, στο Τερματικό
+        python3 comments.py or python3 accounts.py
+9. Keep the terminal open while the program is running
+10. Use Ctrl + C to end the program on the terminal
 
-- ΠΡΟΣΟΧΗ
+- ATTENTION
 
-1. Υπάρχει περίπτωση να μην τρέξει με την πρώτη εκτέλεση
-2. Πρέπει να απενεργοποιήσεις το 2 factor authentication στο λογαριασμό σου πριν το τρέξεις
-3. Το Instagram έχει daily limit για comments τα >180, οπότε για ασφάλεια θα τρέχεις μέχρι 120
-4. Αφού βάλεις το verification code, μπορεί να κολλήσει. Κλείσε την καρτέλα και άνοιξε κανονικά το λογαριασμό
+1. It may not run in the first attempt
+2. You have to remove 2 factor authentication on your account before you run the program
+3. Instagram has a daily comment limit >180, so for safety the programm will do around 120
+4. After you put the verification code, it may freeze. Close the tab and open a new with your created account
