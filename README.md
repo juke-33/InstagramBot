@@ -1,8 +1,6 @@
 # Instagram Bot (v1.0)
 
 
-Για οποιοδήποτε πρόβλημα στείλτε ένα mail εδώ: juke33@proton.me
-
 - ΛΕΙΤΟΥΡΓΙΑ
 
 accounts.py
