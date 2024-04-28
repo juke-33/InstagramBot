@@ -19,7 +19,7 @@ comments.py
 
 1. Remove all the files from the .zip file into a new file
 2. Complete the information needed in the InfoTag.ini or the InfoAccount.ini files
-3. Download Chrome or Python(https://phoenixnap.com/kb/how-to-install-python-3-windows)
+3. Download Chrome or [Python](https://phoenixnap.com/kb/how-to-install-python-3-windows)
 4. Go to the file created in Step 1
 5. Open the terminal(cmd) using right click on the file
 6. If everything was completed, go to step7
