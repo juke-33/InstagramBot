@@ -54,7 +54,7 @@ def signal_handler(*args):
 
 if __name__ == "__main__":
     number_of_tags = 0
-    tags_limit = 50
+    comment_limit = 50
     signal.signal(signal.SIGINT, signal_handler)
 
     os.system('cls')
@@ -164,10 +164,10 @@ if __name__ == "__main__":
                 # set a random waiting time to avoid block
                 seconds_to_wait = random.randint(1,15)
                 print("\n\tTagged: {}".format(comment))
-                print("\tTotal tags made: {}/{}".format(number_of_tags, tags_limit))
+                print("\tTotal tags made: {}/{}".format(number_of_tags, comment_limit))
                 time.sleep(seconds_to_wait)
 
-                if number_of_tags > (tags_limit-1): # change it as you wish
+                if number_of_tags > (comment_limit-1): # change it as you wish
                     print(f"\n[{RED}x{RESET}] Reached daily comment limit")
                     print(f"\n[{BLUE}-{RESET}] Script is Terminating...")
                     print("-----------------------------")
