@@ -2,7 +2,7 @@
 
 Last changes: 05/11/2024
 
-## HOW CODES WORK
+## HOW SCRIPTS WORK
 
 accounts.py
 
